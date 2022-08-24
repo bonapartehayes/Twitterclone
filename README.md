@@ -4,7 +4,8 @@ A sample web page of twitter. Twitter clone Let's make simple twitter. Users can
 Check Out [LIVE DEMO HERE...!!!](https://twitterclonehayes.herokuapp.com/)
 
 # Screenshot:
-![Screen Shot 2022-08-24 at 02 45 11](https://user-images.githubusercontent.com/107975354/186349797-84cb2b05-fe02-4cd9-baab-c8e7437f4cb1.png)
+<img width="1413" alt="Screenshot 2022-08-24 at 12 19 21 PM" src="https://user-images.githubusercontent.com/107975354/186350311-dc275191-3aa2-4b5b-b17f-0b96a3609e24.png">
+
 
 
 
