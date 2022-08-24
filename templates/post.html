@@ -2,7 +2,7 @@
 <section class="content">
   <section class="head">
     <div class="header">
-      <img src="static/img/techis-logo.png" alt="techis-logo" />
+      <img src="static/IMG/techis-logo.png" alt="techis-logo" />
       <h1>Home</h1>
     </div>
   </section>
@@ -11,7 +11,7 @@
       {% csrf_token %}
       <div class="logo">
         {% load static %}
-        <img src="{% static 'img/user.png' %}" />
+        <img src="{% static 'IMG/user.png' %}" />
       </div>
       <input
         class="name"
@@ -31,7 +31,7 @@
       <li>
         <img
           class="menu_icon js-menu-icon"
-          src="{% static 'img/option.png' %}"
+          src="{% static 'IMG/option.png' %}"
         />
 
         <div class="menu">
@@ -39,7 +39,7 @@
           <a href="/delete/{{post.id}}/">Delete</a>
         </div>
         <div class="logo">
-          <img src="{% static 'img/user.png' %}" />
+          <img src="{% static 'IMG/user.png' %}" />
         </div>
         <div class="name_body">
           <div class="name">{{ post.name}}</div>
@@ -52,7 +52,7 @@
           {% endif %}
           <div class="icon_list">
             <a href="/likes/{{post.id}}/">
-              <img class="like" src="{% static 'img/heart.svg' %}"
+              <img class="like" src="{% static 'IMG/heart.svg' %}"
             /></a>
             {{ post.like_count }}
           </div>
